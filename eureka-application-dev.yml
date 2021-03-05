@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 2001
+eureka:
+  server:
+    enable-self-preservation: false
+  instance:
+    hostname: euraka1
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
